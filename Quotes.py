@@ -16,6 +16,9 @@ quotes = {
         "Talk is cheap. Show me the code. – Linus Torvalds",
         "Programs must be written for people to read. – Harold Abelson",
         "First, solve the problem. Then, write the code. – John Johnson",
+        "The best way to predict the future is to invent it. — Alan Kay",
+        "The tools of the future are being built by those willing to think beyond today. — Various authors",
+        "Technology is best when it brings people together. — Matt Mullenweg"
     ]
 }
 
