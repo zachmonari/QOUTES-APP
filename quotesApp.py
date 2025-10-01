@@ -34,8 +34,11 @@ quotes = {
 
 # Streamlit UI
 st.title("💬 Quote Machine")
-st.sidebar.markdown("### © Zach Techs 2025")
+st.sidebar.markdown("### © Zach Techs")
 st.sidebar.write("🌍 Inspiring one quote at a time")
+st.markdown("---")
+st.caption("© 2025 Zach Techs | All Rights Reserved")
+
 
 
 # Dropdown for category
