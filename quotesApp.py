@@ -34,6 +34,9 @@ quotes = {
 
 # Streamlit UI
 st.title("💬 Quote Machine")
+st.sidebar.markdown("### © Zach Techs 2025")
+st.sidebar.write("🌍 Inspiring one quote at a time")
+
 
 # Dropdown for category
 category = st.selectbox("Choose a category", list(quotes.keys()))
@@ -41,8 +44,3 @@ category = st.selectbox("Choose a category", list(quotes.keys()))
 if st.button("Get Random Quote"):
     quote = random.choice(quotes[category])
     st.success(quote)
-
-# Optionally show all quotes in that category
-st.subheader(f"📖 All {category} Quotes")
-for q in quotes[category]:
-    st.write(f"👉 {q}")
